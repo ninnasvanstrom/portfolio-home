@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Helvetica Now Medium';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Medium.ttf);
+    src: url(fonts/HelveticaNow/HelveticaNowDisplay-Medium.ttf);
 
     font-family: 'Helvetica Now Regular';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Regular.ttf);
+    src: url(fonts/HelveticaNow/HelveticaNowDisplay-Regular.ttf);
 
      font-family: 'Helvetica Now Thin';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Thin.ttf);
+    src: url(fonts/HelveticaNow/HelveticaNowDisplay-Thin.ttf);
 
     font-family: 'General Sans Bold';
-    src: url(/fonts/GeneralSans/GeneralSans-Bold.otf);
+    src: url(fonts/GeneralSans/GeneralSans-Bold.otf);
 
     font-family: 'General Sans Medium';
-    src: url(/fonts/GeneralSans/GeneralSans-Medium.otf);
+    src: url(fonts/GeneralSans/GeneralSans-Medium.otf);
 }
 
 
