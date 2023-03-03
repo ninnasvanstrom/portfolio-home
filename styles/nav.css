@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'Blacker Pro Medium';
-    src: url(/fonts/BlackerPro/Zetafonts\ -\ Blacker\ Pro\ Display\ Medium\ Italic.otf);
+    src: url(fonts/BlackerPro/Zetafonts\ -\ Blacker\ Pro\ Display\ Medium\ Italic.otf);
 }
 
 @font-face {
     font-family: 'Blacker Pro Condensed Light';
-    src: url(/fonts/BlackerPro/Zetafonts\ -\ Blacker\ Pro\ Display\ Condensed\ Light.otf);
+    src: url(fonts/BlackerPro/Zetafonts\ -\ Blacker\ Pro\ Display\ Condensed\ Light.otf);
 }
 
 @font-face {
     font-family: 'Helvetica Now Thin';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Thin.ttf);
+    src: url(fonts/HelveticaNow/HelveticaNowDisplay-Thin.ttf);
 }
 
 @font-face {
     font-family: 'Helvetica Now Regular';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Regular.ttf);
+    src: url(fonts/HelveticaNow/HelveticaNowDisplay-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Helvetica Now Medium';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Medium.ttf);
+    src: url(fonts/HelveticaNow/HelveticaNowDisplay-Medium.ttf);
 }
 
 
