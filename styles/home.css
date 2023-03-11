@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Fredoka:wght@300;400&family=Hahmlet:wght@200;300;400&family=Lora:wght@400;500&family=Lustria&family=Nanum+Myeongjo:wght@400;700&family=Orbitron&family=Poppins:wght@200;300;400;600;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;300;400;500;600&family=Roboto:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Fredoka:wght@300;400&family=Hahmlet:wght@200;300;400&family=Lora:wght@400;500&family=Lustria&family=Nanum+Myeongjo:wght@400;700&family=Orbitron&family=Poppins:wght@200;300;400;600;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;300;400;500;600&family=Roboto:wght@100;300;400&family=Tilt+Warp&family=Varela+Round&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -30,9 +31,18 @@ a {
 }
 
 
-.hero img {
-    width: 1000px;
+.hero h1 {
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+    font-size: 60px;
+    line-height: 80px;
+    margin-right: 50px;
 }
+
+.hero img {
+   width: 480px;
+}
+
 
 #intro-text {
     color: #333;
@@ -55,23 +65,21 @@ a {
 
 #intro-text p{
     font-size: 40px;
-    font-family: 'General Sans', sans-serif;
-    font-weight: 200;
+    font-family: 'Tilt Warp', cursive;
     text-align: center;
 }
 
 
 #intro-text h1{
     font-size: 60px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     max-width: 700px;
 }
 
 
 #intro-text span {
-    font-family: 'General Sans Bold 2';
-    font-weight: 700;
+    font-family: 'Tilt Warp', cursive;
     font-size: 140px;
 }
 
@@ -79,8 +87,8 @@ a {
     font-size: 40px;
     width: 1300px;
     line-height: 130px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: rgba(51, 51, 51, 0.842);
     color: #333;
     font-weight: 600;
@@ -119,20 +127,18 @@ a {
 
 
 #intro-text h2 #js-text{
-    font-family: 'General Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Tilt Warp', cursive;
 
 }
 
 #intro-text h2 span span {
-    font-family: 'Blacker Pro Medium';
-    font-size: 35px;
+    font-family: 'Tilt Warp', cursive;
 
     
 }
 
 #intro-text h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 25px;
     position: absolute;
@@ -142,7 +148,8 @@ a {
 }
 
 #intro-text h3 span{
-    font-family: 'General Sans Medium Italic';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: #333;
 }
 
@@ -205,8 +212,7 @@ a {
 
 .latest-work-section .latest-work h1{
     font-size: 50px;
-    font-family: 'General Sans Bold 2';
-    font-weight: 700;
+    font-family: 'Tilt Warp', cursive;
     color: #333;
     margin-bottom: 30px;
 }
@@ -225,8 +231,8 @@ a {
 
 .latest-work-section .latest-work .project-description .text-container h2{
     font-size: 23px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-family: 'Tilt Warp', cursive;
+    font-weight: 300;
 
     color: #333;
     margin-bottom: 10px;
@@ -237,8 +243,7 @@ a {
 
 
 .latest-work-section .latest-work .project-description .text-container h2 span{
-    font-family: 'General Sans', sans-serif;
-    font-weight: 200;
+    font-family: 'Tilt Warp', cursive;
 }   
 
 
@@ -253,21 +258,21 @@ a {
 }  
 
 .latest-work-section .latest-work .project-description .text-container p span{
-    font-family: 'General Sans Medium';
+    font-family: 'Tilt Warp', cursive;
 }  
     
 
 .latest-work-section .latest-work .project-description .text-container p #summary{
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: #333;
     line-height: 45px;
 }  
 
 .latest-work-section .latest-work .project-description .text-container p #description{
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #333;
     line-height: 45px;
@@ -277,7 +282,7 @@ a {
 
 .latest-work-section .latest-work .project-description .text-container p #description span{
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #333;
     line-height: 45px;
@@ -325,8 +330,8 @@ a {
 }
 
 .latest-work-section .latest-work .project-description .wrapper p { 
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 18px;
     margin-top: 20px;
     position: absolute;
@@ -367,8 +372,8 @@ a {
     font-size: 18px;
     position: relative;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     transition: background-color 0.2s ease;
     transition: transform 0.2s ease;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 3);
@@ -409,16 +414,15 @@ a {
 
 .about-me-section .about-me h1{
     font-size: 50px;
-    font-family: 'General Sans Bold 2';
-    font-weight: 700;
+    font-family: 'Tilt Warp', cursive;
     color: #333;
     margin-bottom: 30px;
 }
 
 .about-me-section .about-me p{
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: #333;
     line-height: 40px;
 }
@@ -449,8 +453,8 @@ a {
     font-size: 18px;
     position: relative;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     transition: background-color 0.2s ease;
     transition: transform 0.2s ease;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 3);
@@ -488,8 +492,8 @@ a {
     font-size: 18px;
     position: relative;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     transition: background-color 0.2s ease;
     transition: transform 0.2s ease;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 3);
@@ -508,5 +512,4 @@ a {
     transform: translateY(4px) translateX(4px);
 
 }
-
 
